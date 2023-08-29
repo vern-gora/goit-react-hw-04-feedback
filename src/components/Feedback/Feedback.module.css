@@ -1,0 +1,30 @@
+.feedback {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: solid 1px aliceblue;
+  border-radius: 20px;
+  color: aliceblue;
+  padding: 8px 32px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:nth-child(1):hover {
+  color: green;
+  border-color: green;
+}
+
+button:nth-child(2):hover {
+  color: rgb(76, 197, 249);
+  border-color: rgb(76, 197, 249);
+}
+
+button:nth-child(3):hover {
+  color: red;
+  border-color: red;
+}
